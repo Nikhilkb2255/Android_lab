@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="B1" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="B2" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="B3" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="195dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:text="T1"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="195dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="#ff0000"
+        android:text="T2"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="195dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="#3DDC84"
+        android:text="T3"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/aravind" />
+
+</LinearLayout>
